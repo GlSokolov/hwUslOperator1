@@ -30,9 +30,8 @@ public class Main {
         if (sidyachih >= 60){
             if (stoyachih < 42)
                 System.out.println("В вагоне остались только стоячие места");}
-        if (sidyachih < 60) {
-            if (stoyachih >=42)
-                System.out.println("В вагоне остались лишь сидячие места");}
+        if (sidyachih < 60 && stoyachih >= 42) {
+            System.out.println("В вагоне остались лишь сидячие места");}
     }
 
 }
